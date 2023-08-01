@@ -1,4 +1,6 @@
-Neste projeto, estaremos desenvolvendo um sistema de gerenciamento de biblioteca eficiente e organizado. Nosso objetivo é criar um banco de dados que seja capaz de armazenar informações detalhadas sobre os livros, autores, Usuarios, Editoras e empréstimos da biblioteca. Com isso, poderemos oferecer uma experiência aprimorada para os usuários.
+#Biblioteca 
+
+Neste projeto, estaremos desenvolvendo um sistema de gerenciamento de biblioteca eficiente e organizado. O objetivo é criar um banco de dados que seja capaz de armazenar informações detalhadas sobre os livros, autores, Usuarios, Editoras e empréstimos da biblioteca. Com isso, poderemos oferecer uma experiência aprimorada para os usuários.
 Principais características do projeto:
 
 Tabelas:
