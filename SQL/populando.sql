@@ -1,3 +1,5 @@
+-- Populando Tabela Livro
+
 INSERT INTO Livro (Titulo, Genero, DataPublicacao, ExemplaresDisponiveis)
 VALUES
 ('Dom Casmuro', 'Romance', '1899', '3'),
@@ -11,6 +13,8 @@ VALUES
 ('Capitaes da Areia', 'Romance', '1937', '2'),
 ('Mar Morto', 'Ficcao', '1936', '4');
 
+-- Populando Tabela Autor
+
 INSERT INTO Autor (Nome, DatadeNascimento, Pais, Titulos)
 VALUES
 ('Machado de Assis', '21-06-1839', 'Brasil', '2'),
@@ -18,6 +22,8 @@ VALUES
 ('Clarise Lispector', '10-12-1920', 'Brasil', '2'),
 ('Lima Barreto', '13-05-1881', 'Brasil', '2'),
 ('Jorge Leal Amado de Faria', '10-08-1912', 'Brasil', '2');
+
+-- Populando Tabela Editora 
 
 INSERT INTO Editora (Nome, Endereco, Telefone, Email)
 VALUES
@@ -27,6 +33,8 @@ VALUES
 ('Editora Saraiva', 'Av Paulista, Sao Paulo', '11-40033061', 'saceditorasaraiva@somoseducacao.com.br'),
 ('Arqueiro', 'Rua Funchal, Sao Paulo', '11-38684492', 'atendimento@editoraarqueiro.com.br');
 
+-- Populando Tabela RenovacaoeReserva
+
 INSERT INTO RenovacaoeReserva (livroId, UsuarioId, Dataemprestimo, Datadevolucao)
 VALUES
 (6,3, '2023-05-05', '2023-05-12'),
@@ -34,6 +42,8 @@ VALUES
 (4,2, '2023-01-07', '2023-01-15'),
 (9,1, '2023-04-17', '2023-04-25'),
 (3,4, '2023-03-10', '2023-03-17');
+
+-- Populando Tabela Usuario
 
 INSERT INTO Usuario (nome, Endereco, Telefone, Email, Senha)
 VALUES

@@ -1,6 +1,7 @@
 CREATE DATABASE IF NOT EXISTS biblioteca_isa;
 USE biblioteca_isa;
 
+-- Tabela Livro
 CREATE TABLE `Livro` (
   `ID` INT PRIMARY KEY,
   `Titulo` VARCHAR(255),
@@ -10,6 +11,7 @@ CREATE TABLE `Livro` (
   `EditoraID` INT
 );
 
+-- Tabela Autor
 CREATE TABLE `Autor` (
   `ID` INT PRIMARY KEY,
   `Nome` VARCHAR(100),
@@ -18,6 +20,7 @@ CREATE TABLE `Autor` (
   `Titulos` INT
 );
 
+-- Tabela Editora 
 CREATE TABLE `Editora` (
   `ID` INT PRIMARY KEY,
   `Nome` VARCHAR(100),
@@ -26,6 +29,7 @@ CREATE TABLE `Editora` (
   `Email` VARCHAR(255)
   );
 
+-- Tabela RenovacaoeReserva
 CREATE TABLE `RenovacaoeReserva` (
   `ID` INT PRIMARY KEY,
   `LivroID` INT,
@@ -34,6 +38,7 @@ CREATE TABLE `RenovacaoeReserva` (
   `DataDevolucao` DATE
 );
 
+-- Tabela Usuario
 CREATE TABLE `Usuario` (
   `ID` INT PRIMARY KEY,
   `Nome` VARCHAR(100),
