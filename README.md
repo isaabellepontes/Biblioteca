@@ -1,4 +1,4 @@
-                                 # Bem vindo a Biblioteca Isa  :U+1F49C:
+# Bem vindo a Biblioteca Isa 
 
 ## Descrição do Projeto 
 
