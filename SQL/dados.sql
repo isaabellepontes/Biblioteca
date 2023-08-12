@@ -6,7 +6,7 @@ CREATE TABLE `Livro` (
   `ID` INT PRIMARY KEY,
   `Titulo` VARCHAR(255),
   `Genero` VARCHAR(100),
-  `DataPublicacao` DATE,
+  `DataPublicacao` INT,
   `ExemplaresDisponiveis` INT,
   `EditoraID` INT
 );

@@ -2,26 +2,26 @@
 
 INSERT INTO Livro (Titulo, Genero, DataPublicacao, ExemplaresDisponiveis)
 VALUES
-('Dom Casmuro', 'Romance', '1899', '3'),
-('O Alienista', 'Ficcao', '1882', '3'),
-('Ou istou ou aquilo', 'Infantil', '1964', '3'),
-('Janela Magica: Cronicas', 'Ficcao', '1981', '3'),
-('Clara dos Anjos', 'Ficcao', '1948', '3'),
-('Cemiterio dos Vivos', 'Romance', '1919', '3'),
-('Felicidade Clandestina', 'Ficcao Literaria', '1971', '3'),
-('A hora da Estrela', 'Romance', '1977', '3'),
-('Capitaes da Areia', 'Romance', '1937', '2'),
-('Mar Morto', 'Ficcao', '1936', '4');
+('Dom Casmuro', 'Romance', 1899, 3),
+('O Alienista', 'Ficcao', 1882, 3),
+('Ou istou ou aquilo', 'Infantil', 1964, 3),
+('Janela Magica: Cronicas', 'Ficcao', 1981, 3),
+('Clara dos Anjos', 'Ficcao', 1948, 3),
+('Cemiterio dos Vivos', 'Romance', 1919, 3),
+('Felicidade Clandestina', 'Ficcao Literaria', 1971, 3),
+('A hora da Estrela', 'Romance', 1977, 3),
+('Capitaes da Areia', 'Romance', 1937, 2),
+('Mar Morto', 'Ficcao', 1936, 4);
 
 -- Populando Tabela Autor
 
 INSERT INTO Autor (Nome, DatadeNascimento, Pais, Titulos)
 VALUES
-('Machado de Assis', '21-06-1839', 'Brasil', '2'),
-('Cecilia Meireles', '07-11-1901', 'Brasil', '2'),
-('Clarise Lispector', '10-12-1920', 'Brasil', '2'),
-('Lima Barreto', '13-05-1881', 'Brasil', '2'),
-('Jorge Leal Amado de Faria', '10-08-1912', 'Brasil', '2');
+('Machado de Assis', '21-06-1839', 'Brasil', 2),
+('Cecilia Meireles', '07-11-1901', 'Brasil', 2),
+('Clarise Lispector', '10-12-1920', 'Brasil', 2),
+('Lima Barreto', '13-05-1881', 'Brasil', 2),
+('Jorge Leal Amado de Faria', '10-08-1912', 'Brasil', 2);
 
 -- Populando Tabela Editora 
 
