@@ -19,7 +19,10 @@ Usuarios: Registrar os dados dos clientes, incluindo nome, endereço, número de
 Empréstimos: Gerenciará as transações de empréstimos, rastreando a data de empréstimo, data de devolução e status do livro.
 
 Editoras: Armazena informações sobre a editora, como nome, endereço, telefone e email.
-("C:\Users\isaap\OneDrive\Área de Trabalho\Biblioteca\MODEL\Untitled.png")
+
+![DBdiagram](https://github.com/isaabellepontes/Biblioteca/assets/133885977/bade9726-4403-41ff-889a-4ccdf1d8df15)
+
+
 
 ## Relacionamentos
 
